@@ -6,16 +6,11 @@
 /*   By: juchin@student.42kl.edu.my <juchin>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 17:37:20 by juchin@stud       #+#    #+#             */
-/*   Updated: 2023/10/29 17:56:47 by juchin@stud      ###   ########.fr       */
+/*   Updated: 2023/10/30 11:43:20 by juchin@stud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strcount(char const *str, char c)
 {
