@@ -6,7 +6,7 @@
 /*   By: juchin@student.42kl.edu.my <juchin>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/28 17:37:20 by juchin@stud       #+#    #+#             */
-/*   Updated: 2023/10/30 11:43:20 by juchin@stud      ###   ########.fr       */
+/*   Updated: 2023/10/30 11:44:46 by juchin@stud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,11 +84,13 @@ char	**ft_split(char const *s, char c)
 	return (str);
 }
 
-// int main()
-// {
-// 	char *str = " Hello World     How are you?";
-// 	char **str2 = ft_split(str, ' ');
-// 	for (int i = 0; str2[i]; i++)
-// 		printf("%s\n", str2[i]);
-// 	return (0);
-// }
+/*
+int main()
+{
+	char *str = " Hello World     How are you?";
+	char **str2 = ft_split(str, ' ');
+	for (int i = 0; str2[i]; i++)
+		printf("%s\n", str2[i]);
+	return (0);
+}
+*/
