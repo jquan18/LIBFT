@@ -6,7 +6,7 @@
 /*   By: juchin@student.42kl.edu.my <juchin>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 18:43:35 by juchin@stud       #+#    #+#             */
-/*   Updated: 2023/11/10 22:17:16 by juchin@stud      ###   ########.fr       */
+/*   Updated: 2023/11/12 00:23:18 by juchin@stud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,4 +19,3 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
-
